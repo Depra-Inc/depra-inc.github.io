@@ -29,9 +29,6 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
-# A list of the pages to display in the navigation bar
-header_pages:
-
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
@@ -40,3 +37,20 @@ exclude:
   - Gemfile.lock
   - node_modules
   - update_boostrap.sh
+
+collections:
+  unity-packages:
+    output: true
+    permalink: /unity-packages/:path/
+
+include:
+  - .well-known
+
+compress_html:
+  clippings: all
+  comments: [ "<!-- ", " -->" ]
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: [ ]
