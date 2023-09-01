@@ -5,4 +5,4 @@ title: Depra
 
 ### Unity Packages:
 
-[Assets]({{ page.base-url }}/unity-packages/assets-unity)
+* [Assets.Unity]({{ page.base-url }}/unity-packages/assets-unity)
